@@ -1,0 +1,61 @@
+body{
+    background-size: cover;
+}
+
+.div{
+    width: 100%;
+    background: linear-gradient(to top right, #cc99ff 0%, #ff66ff 100%);
+    border-radius: 0px !important;
+    padding: 10px;
+}
+
+.div:hover{
+    cursor: default;
+}
+
+.heading{
+    color: yellow;
+    font-size: 40px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.note{
+    background-color: pink;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.heading_note{
+    font-size: 20px;
+    border-bottom: 3px;
+    border-color: black;
+    color: fuchsia;
+    text-decoration: underline;
+}
+
+.notes_div{
+    text-align: left;
+    padding-top: 5px;
+    color: purple;
+    font-size: 15px;
+}
+
+#song{
+    font-size: 20px;
+    background-color: fuchsia;
+    color: whitesmoke;
+    box-shadow: 1px 1px 10px magenta;
+}
+
+#song:hover{
+    cursor: default;
+}
+
+canvas{
+    background-color: #cc99ff;
+    border: 5px solid purple;
+    border-radius: 20px;
+    margin-top: 180px !important;
+}
